@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
 body {
   background-color: #f0eef7;
   display: flex;
@@ -11,34 +19,38 @@ body {
 }
 .heading {
   color: #6554af;
-  padding: 20px;
+  padding: 2.4rem;
+  margin: 2.4rem;
+  font-size: 2.4rem;
 }
 .container {
-  margin: 10px auto;
-  padding: 100px 50px;
+  margin: 1rem auto;
+  padding: 12rem 8rem;
   border: 1px solid #a0c49d;
   border-radius: 9px;
   background-color: #f7ffe5;
+  font-size: 1.6rem;
 }
 
 .flex {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 18px;
-  padding: 16px;
+  gap: 1.8rem;
+  padding: 1.6rem;
   color: #6554af;
+  margin-bottom: 2rem;
 }
 
 .btn {
   display: block;
-  padding: 3px 20px;
+  padding: 0.3rem 2rem;
   background-color: #e1ecc8;
   border: none;
   border: 1px solid #a0c49d;
   border-radius: 4px;
   color: #6554af;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 .btn:hover {
   background-color: #c4d7b2;
@@ -47,8 +59,15 @@ body {
 .date-container {
   display: inline-block;
   background-color: #e1ecc8;
-  padding: 18px 36px;
+  padding: 1.8rem 3.6rem;
   color: #6554af;
   border-radius: 9px;
-  margin-top: 24px;
+  margin-top: 2.4rem;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 56.2%;
+  }
 }
