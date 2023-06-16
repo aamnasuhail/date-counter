@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 body {
   background-color: #f0eef7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .App {
   font-family: "Roboto Mono", monospace;
@@ -11,9 +14,8 @@ body {
   padding: 20px;
 }
 .container {
-  width: 80%;
   margin: 10px auto;
-  padding: 100px 40px;
+  padding: 100px 50px;
   border: 1px solid #a0c49d;
   border-radius: 9px;
   background-color: #f7ffe5;
