@@ -66,8 +66,8 @@ body {
   font-size: 1.8rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 50em) {
   html {
-    font-size: 56.2%;
+    font-size: 50%;
   }
 }
